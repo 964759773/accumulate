@@ -24,10 +24,12 @@ public class RedisInterceptor implements HandlerInterceptor {
         }
         if (num < 5) {
             bucket.set(num + 1);
+            return true;
         } else {
             System.out.println("访问次数已被限制");
+            return false;
         }
-        return false;
+
     }
 
     @Override

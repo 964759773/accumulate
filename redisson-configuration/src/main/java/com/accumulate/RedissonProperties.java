@@ -15,7 +15,6 @@ import org.redisson.config.TransportMode;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.NestedConfigurationProperty;
 
-import java.net.URI;
 import java.net.URL;
 import java.util.concurrent.ExecutorService;
 
