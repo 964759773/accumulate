@@ -8,4 +8,4 @@ spring:
 
 mybatis-plus:
   configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #¿ªÆôSQLÓï¾ä´òÓ¡
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #å¼€å¯SQLè¯­å¥æ‰“å°
