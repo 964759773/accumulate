@@ -338,11 +338,11 @@ public class StreamTest {
         // limit：限制从流中获得前n个数据
         List<Integer> limitList = Stream.iterate(1, x -> x + 2).limit(10).collect(Collectors.toList());
         // skip：跳过前n个数据
-        List<Integer> limitList2 = Stream.iterate(1, x -> x + 2).skip(1).limit(5).collect(Collectors.toList());
+        List<Integer> skip = Stream.iterate(1, x -> x + 2).skip(1).limit(5).collect(Collectors.toList());
 
         System.out.println("流合并：" + newList);
         System.out.println("limit：" + limitList);
-        System.out.println("skip：" + limitList2);
+        System.out.println("skip：" + skip);
     }
 
 }
